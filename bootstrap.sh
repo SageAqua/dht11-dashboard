@@ -21,7 +21,7 @@ else
     rm -rf "$INSTALL_DIR"
 
     sudo -u "$TARGET_USER" git clone \
-        https://github.com/DEIN-GITHUB-NAME/dht11-dashboard.git \
+        https://github.com/SageAqua/dht11-dashboard.git \
         "$INSTALL_DIR"
 fi
 
